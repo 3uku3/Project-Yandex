@@ -1,5 +1,7 @@
 .play {
   display: flex;
+  color: $black;
+  font-family: 'Neue Machina';
   width: 100%;
   margin-top: 30px;
   justify-content: space-between;
@@ -10,8 +12,6 @@
   }
   &__title {
     margin: 62px 0 32px 0;
-    color: $black;
-    font-family: 'Neue Machina';
     font-size: 72px;
     font-weight: 400;
     line-height: 92px;
@@ -20,8 +20,6 @@
   }
   &__subtitle {
     margin: 0 0 212px 60px;
-    color: $black;
-    font-family: 'Neue Machina';
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -30,8 +28,6 @@
   }
   &__time {
     margin: 0 0 16px 0;
-    color: $black;
-    font-family: 'Neue Machina';
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
@@ -46,12 +42,12 @@
     align-items: center;
     max-width: 240px;
     &-text {
-      color: $black;
       font-family: 'Formular';
       font-size: 16px;
       font-weight: 300;
       line-height: 22px;
       margin: 0;
+      text-transform: uppercase;
     }
     &-arrow {
       min-width: 21px;
@@ -74,8 +70,6 @@
   &__intro {
     margin: 0 0 68px;
     max-width: 591px;
-    color: $black;
-    font-family: 'Neue Machina';
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
