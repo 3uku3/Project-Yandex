@@ -59,23 +59,29 @@
         </nav>
       </header>
       <main>
-        <button class="button-back" type="button"><p class="button-back__text">Проекты</p><div class="button-back__arrow"></div></button>
+        <button class="button-back" type="button">
+          <p class="button-back__text">Проекты</p>
+          <div class="button-back__arrow"></div>
+        </button>
         <section class="play">
-          
-          <h1 class="play__title">С _училища</h1>
-          <p class="play__subtitle">
-            Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни
-            преподавателя философии.
-          </p>
-          <time>12 мая 20:00</time>
-          <button class="play__tickets-btn">Билеты -></button>
-          <img class="play__photo" alt="" src="" />
-          <p class="play__intro">
-            Семён Серзин сделал читку этой пьесы в рамках основной программы
-            Любимовки-2017, Варочный Цех предоставил грант на постановку, а
-            Московский драматический театр имени А.С. Пушкина принял спектакль в
-            репертуар.
-          </p>
+          <div class="play__left-container">
+            <h1 class="play__title">С_училища</h1>
+            <p class="play__subtitle">
+              Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в
+              жизни преподавателя философии.
+            </p>
+            <time class="play__time">12 мая 20:00</time>
+            <button class="play__button"><p class="play__button-text">Билеты</p> <div class="play__button-arrow"></div></button>
+          </div>
+          <div class="play__right-container">
+            <img class="play__photo" alt="С училища" src="<%=require('./images/image-project.png')%>" />
+            <p class="play__intro">
+              Семён Серзин сделал читку этой пьесы в рамках основной программы
+              Любимовки-2017, Варочный Цех предоставил грант на постановку, а
+              Московский драматический театр имени А.С. Пушкина принял спектакль
+              в репертуар.
+            </p>
+          </div>
         </section>
 
         <section class="perfomance">
