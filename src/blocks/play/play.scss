@@ -77,3 +77,43 @@
     letter-spacing: -1%;
   }
 }
+
+@media(max-width:1310px) {
+  .play {
+    &__left-container {
+      margin-left: 70px;
+    }
+    &__title {
+      margin: 42px 0 32px 0;
+      font-size: 52px;
+      line-height: 64px;
+    }
+    &__subtitle {
+      margin: 0 0 172px 50px;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 318px;
+    }
+    &__time {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    &__button {
+      max-width: 220px;
+    }
+    &__right-container {
+      max-width: 512px;
+    }
+    &__photo {
+      width: 512px;
+      height: 400px;
+      margin-bottom: 40px;
+    }
+    &__intro {
+      margin: 0 0 58px;
+      max-width: 480px;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+}
