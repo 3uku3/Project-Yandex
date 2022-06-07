@@ -81,7 +81,7 @@
 @media(max-width:1310px) {
   .play {
     &__left-container {
-      margin-left: 70px;
+      margin-left: auto;
     }
     &__title {
       margin: 42px 0 32px 0;
@@ -103,6 +103,7 @@
     }
     &__right-container {
       max-width: 512px;
+      margin-right: auto;
     }
     &__photo {
       width: 512px;

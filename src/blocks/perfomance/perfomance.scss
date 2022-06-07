@@ -81,7 +81,7 @@
 @media(max-width:1310px) {
   .perfomance {
     &__left-container {
-      margin-left: 112px;
+      margin-left: auto;
     }
     &__time {
       font-size: 24px;
@@ -104,6 +104,7 @@
     }
     &__right-container {
       flex-basis: 512px;
+      margin-right: auto;
     }
     &__video {
       width: 500px;
