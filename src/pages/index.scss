@@ -1,3 +1,4 @@
+@import "../vendor/normalize.css";
 @import "../vendor/fonts/font.css";
 @import '../vendor/normalize.css';
 @import "../blocks/vars/vars.scss";
@@ -7,3 +8,5 @@
 @import "../blocks/play/play.scss";
 @import "../blocks/perfomance/perfomance.scss";
 @import "../blocks/card/card.scss";
+@import "../blocks/photos/photos.scss";
+@import "../blocks/photo-grid/photo-grid.scss";
