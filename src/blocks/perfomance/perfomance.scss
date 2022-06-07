@@ -143,11 +143,19 @@
   .perfomance {
     &__left-container {
       display: block;
-      padding: 58px 29px 72px;
+      width: 100%;
+    }
+    &__time {
+      padding-left: 29px;
+    }
+    &__age {
+      padding-top: 58px;
+    }
+    &__jobs-list {
+      padding: 0 29px 72px;
     }
     &__right-container {
       margin: 0 24px;
-      width: 100%;
     }
     &__video {
       width: 100%;
@@ -163,8 +171,6 @@
 @media (max-width: 414px) {
   .perfomance {
     &__video {
-      width: 100%;
-      height: auto;
       min-height: 206px;
     }
   }
