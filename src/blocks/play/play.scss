@@ -118,3 +118,17 @@
     }
   }
 }
+
+@media (max-width: 940px) {
+  .play {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__left-container {
+      margin-bottom: 38px;
+    }
+    &__right-container {
+      margin: auto;
+    }
+  }
+}
