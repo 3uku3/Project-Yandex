@@ -77,3 +77,54 @@
     padding-right: 63px;
   }
 }
+
+@media(max-width:1310px) {
+  .perfomance {
+    &__left-container {
+      margin-left: 112px;
+    }
+    &__time {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    &__age {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    &__job {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &__name {
+      font-size: 18px;
+      line-height: 25px;
+      margin: 0 0 20px;
+      padding: 0 0 0 26px;
+      max-width: 300px;
+    }
+    &__right-container {
+      flex-basis: 512px;
+    }
+    &__video {
+      width: 500px;
+      height: 300px;
+      margin-bottom: 50px;
+    }
+    &__about {
+      max-width: 480px;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 60px;
+    }
+    &__subtitle {
+      margin: 0 0 18px;
+    }
+    &__text {
+      margin: 0 0 18px;
+    }
+    &__text::before{
+      content: '';
+      padding-right: 48px;
+    }
+  }
+}
