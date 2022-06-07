@@ -76,6 +76,15 @@
     content: '';
     padding-right: 63px;
   }
+  &__title-card {
+    display: none;
+    font-family: 'Neue Machina';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1%;
+    margin: 40px 0 32px;
+  }
 }
 
 @media(max-width:1310px) {
@@ -83,21 +92,7 @@
     &__left-container {
       margin: 0 auto;
     }
-    &__time {
-      font-size: 24px;
-      line-height: 30px;
-    }
-    &__age {
-      font-size: 24px;
-      line-height: 30px;
-    }
-    &__job {
-      font-size: 14px;
-      line-height: 20px;
-    }
     &__name {
-      font-size: 18px;
-      line-height: 25px;
       margin: 0 0 20px;
       padding: 0 0 0 26px;
       max-width: 300px;
@@ -113,8 +108,6 @@
     }
     &__about {
       max-width: 480px;
-      font-size: 18px;
-      line-height: 24px;
       margin-bottom: 60px;
     }
     &__subtitle {
@@ -122,10 +115,6 @@
     }
     &__text {
       margin: 0 0 18px;
-    }
-    &__text::before{
-      content: '';
-      padding-right: 48px;
     }
   }
 }
@@ -144,5 +133,40 @@
     &__right-container {
       margin: 0 auto;
     }
+    &__title-card {
+      display: inline-block;
+    }
   }
+}
+
+@media (max-width: 600px) {
+  .perfomance {
+    &__left-container {
+      display: block;
+      padding: 58px 29px 72px;
+    }
+    &__right-container {
+      margin: 0 24px;
+      width: 100%;
+    }
+    &__video {
+      width: 100%;
+      height: auto;
+      min-height: 250px;
+    }
+    &__about {
+      max-width: none;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .perfomance {
+    &__video {
+      width: 100%;
+      height: auto;
+      min-height: 206px;
+    }
+  }
+
 }

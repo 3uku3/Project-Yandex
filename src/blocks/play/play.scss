@@ -90,16 +90,11 @@
     }
     &__subtitle {
       margin: 0 0 172px 50px;
-    font-size: 18px;
-    line-height: 22px;
     max-width: 318px;
     }
     &__time {
       font-size: 24px;
       line-height: 30px;
-    }
-    &__button {
-      max-width: 220px;
     }
     &__right-container {
       max-width: 512px;
@@ -129,6 +124,42 @@
     }
     &__right-container {
       margin: auto;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .play {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__left-container {
+      margin-left: 24px;
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 44px;
+      margin-bottom: 16px;
+    }
+    &__subtitle {
+      margin: 0 0 31px 62px;
+    }
+    &__time {
+      margin-left: 62px;
+    }
+    &__button {
+      margin-left: 62px;
+    }
+    &__right-container {
+      max-width: none;
+    }
+    &__photo {
+      width: 100%;
+    }
+    &__intro {
+      margin: 0 25px 100px;
+      font-size: 20px;
+      line-height: 24px;
     }
   }
 }
