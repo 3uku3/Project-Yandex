@@ -1,0 +1,47 @@
+.links{
+  margin-top: 64px;
+  text-align: center;
+    &__item{
+      object-fit: cover;
+    }
+    &__container{
+      margin: 34px auto auto -100px;
+      justify-content: center;
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(auto-fit,minmax(53px,24px));
+    }
+    &__button{
+      text-decoration: none;
+      align-items: center;
+      background: none;
+      border: 1px solid #242424;
+      border-right: none;
+      border-top: none;
+      display: flex;
+      width: 53px;
+      height: 24px;
+      cursor: pointer;
+      padding: 0;
+        &-text{
+          font-family: Formular;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 14px;
+          margin: auto auto 6px 0;
+          color: #242424;
+        }
+        &-arrow{
+          margin-bottom: -3px;
+          height: 24px;
+        }
+    }
+    &__title{
+      font-family: Neue Machina;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: start;
+      margin: -12px auto auto 361px;
+    }
+}
