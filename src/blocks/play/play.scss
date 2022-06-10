@@ -61,12 +61,13 @@
   }
   &__right-container {
     max-width: 720px;
+    margin-top: 20px;
   }
   &__photo {
     width: 720px;
     height: 614px;
     object-fit: cover;
-    margin-bottom: 48px;
+    margin-bottom: 44px;
   }
   &__intro {
     margin: 0 0 68px;
