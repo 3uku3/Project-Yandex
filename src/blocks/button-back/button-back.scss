@@ -3,23 +3,22 @@
   border: none;
   border-right: 1px solid $black;
   border-bottom: 1px solid $black;
-  padding: 0;
   display: flex;
   align-items: center;
-  &__text {
-    font-family: "Formular";
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 14px;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 9px 10px;
-  }
+  font-family: "Formular";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 9px 31px 9px 10px;
+  background-image: url("../icons/arrow-left.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
   &__arrow {
     min-width: 21px;
     min-height: 13px;
-    background-image: url("../icons/arrow-left.svg");
-    background-position: center center;
-    background-size: cover;
+    
+    
   }
 }

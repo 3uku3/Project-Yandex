@@ -21,7 +21,7 @@
   &__age {
     display: inline-block;
     margin: 0;
-    padding: 16px;
+    padding: 0 0 0 10px;
     font-size: 28px;
     font-weight: 400;
     line-height: 32px;
@@ -30,7 +30,7 @@
   }
   &__jobs-list {
     padding: 0;
-    margin: 0;
+    margin: 20px 0 0;
   }
   &__jobs-item {
     list-style-type: none;
@@ -75,5 +75,104 @@
   &__text::before{
     content: '';
     padding-right: 63px;
+  }
+  &__title-card {
+    display: none;
+    font-family: 'Neue Machina';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1%;
+    margin: 40px 0 32px;
+  }
+}
+
+@media(max-width:1310px) {
+  .perfomance {
+    &__left-container {
+      margin: 0 auto;
+    }
+    &__name {
+      margin: 0 0 20px;
+      padding: 0 0 0 26px;
+      max-width: 300px;
+    }
+    &__right-container {
+      flex-basis: 512px;
+      margin-right: auto;
+    }
+    &__video {
+      width: 500px;
+      height: 300px;
+      margin-bottom: 50px;
+    }
+    &__about {
+      max-width: 480px;
+      margin-bottom: 60px;
+    }
+    &__subtitle {
+      margin: 0 0 18px;
+    }
+    &__text {
+      margin: 0 0 18px;
+    }
+  }
+}
+
+@media (max-width: 940px) {
+  .perfomance {
+    flex-direction: column;
+    &__left-container {
+      padding: 56px 0 72px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: $white;
+      width: 100%;
+    }
+    &__right-container {
+      margin: 0 auto;
+    }
+    &__title-card {
+      display: inline-block;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .perfomance {
+    &__left-container {
+      display: block;
+      width: 100%;
+      padding: 0;
+    }
+    &__time {
+      padding-left: 29px;
+    }
+    &__age {
+      padding-top: 58px;
+    }
+    &__jobs-list {
+      padding: 0 29px 72px;
+    }
+    &__right-container {
+      margin: 0 24px;
+    }
+    &__video {
+      width: 100%;
+      height: auto;
+      min-height: 250px;
+    }
+    &__about {
+      max-width: none;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .perfomance {
+    &__video {
+      min-height: 206px;
+    }
   }
 }
